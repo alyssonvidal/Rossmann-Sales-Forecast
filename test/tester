@@ -1,7 +1,24 @@
+import json
 from pathlib import Path
-
+import pandas as pd
+import json
+#import requests
 
 def test_train_store_csv():
     path = Path('../data/raw/train_store.csv')
     assert path.is_file()
 
+def api_tester():
+    data_test_raw = pd.read_csv( '../data/raw/test.csv')
+    data_store_raw = pd.read_csv( '../data/raw/store.csv')
+    data = pd.merge( data_test_raw, data_store_raw, how='left', on='Store' )
+    data = data[data['Open'] != 0]
+    data = data[~data['Open'].isnull()]
+    data = data.drop( 'Id', axis=1 )
+    data = data.sample(5)
+    df_json = json.dumps( data.to_dict( orient='records' ) )
+
+    url = 'http://127.0.0.1:5000/rossmann/predict'
+    header = {'Content-type': 'application/json'}
+    #r = requests.post(url=url, data=df_json, headers=header)
+    #print( 'Status Code {}'.format( r.status_code ) )

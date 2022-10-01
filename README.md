@@ -1,12 +1,11 @@
 # Rossmann Sales Forecast
 
-<<<<<<< HEAD
-Versão em  [português (BR)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast/blob/main/referenses/README_PT.md)
-=======
-[português (BR)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast/tree/main/referenses#readme_PT)
->>>>>>> 1ceebd0 (handler.py, documatations)
 
-![1](/images/logo_rossmann.jpg "Image Title")
+
+Versão em  [português (BR)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast/blob/main/referenses/README_PT.md)
+
+
+<img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="400"/>
 
 ## Problem Statement
 
@@ -49,9 +48,3 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 *** 
 
 ## Brefing 
-
-
-
-
-
-

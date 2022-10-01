@@ -6,3 +6,4 @@ numpy
 inflection
 xgboost
 Pickle
+requests
