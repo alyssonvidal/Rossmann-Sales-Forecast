@@ -1,0 +1,8 @@
+Flask
+sklearn
+pandas
+matplotlib
+numpy
+inflection
+xgboost
+Pickle

@@ -1,0 +1,7 @@
+from pathlib import Path
+
+
+def test_train_store_csv():
+    path = Path('../data/raw/train_store.csv')
+    assert path.is_file()
+
