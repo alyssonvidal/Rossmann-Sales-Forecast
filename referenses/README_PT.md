@@ -2,7 +2,7 @@
 
 [English (ENG)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast#readme)
 
-![1](/images/logo_rossmann.jpg "Image Title")
+<img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="400"/>
 
 ## Descrição do Problema
 
@@ -23,14 +23,14 @@ A Rossmann é uma empresa opera em mais de 3.000 drogarias em 7 países europeus
 * Preprocessamento dos Dados
 * Analise Exploratória dos Dados
 * Modelo Preditivo de Machine Learning
-    - SARIMAX, Random Forest Regressor, XGBoost Rgressor
+    - SARIMAX, Random Forest Regressor, XGBoost Regressor
 * Produção
     
 *More details on notebooks and reports* 
 
 ## Relatórios
 * Apresentação do Projeto
-* Sobre negócios ( insights, performace das lojas, ganho financeiro)
+* Avaliação Financeira
 * Performace do modelo de machine learning
 
 
@@ -45,9 +45,6 @@ A Rossmann é uma empresa opera em mais de 3.000 drogarias em 7 países europeus
 *** 
 
 ## Resumo 
-
-
-*More details on notebooks and reports* 
 
 
 

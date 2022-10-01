@@ -1,12 +1,6 @@
 # Rossmann Sales Forecast
 
-
-=
 Versão em  [português (BR)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast/blob/main/referenses/README_PT.md)
-
-
-Versão em  [português (BR)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast/blob/main/referenses/README_PT.md)
-
 
 <img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="400"/>
 
@@ -27,16 +21,16 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 ## Development Stages
 * Business Knowledge
 * Data Preprocessing
-* Exploratory Data Analyzis
+* Exploratory Data Analysis
 * Machine Learning Predictive Model
-    - SARIMAX, Random Forest Regressor, XGBoost Rgressor
+    - SARIMAX, Random Forest Regressor, XGBoost Regressor
 * Deploy
     
 *More details on notebooks and reports* 
 
 ## Reports
 * Project Presentation
-* Business Approach( insights, store performace, financial gain)
+* Business Avaliation
 * Model Performace
 
 
