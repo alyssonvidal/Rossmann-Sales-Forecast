@@ -1,6 +1,8 @@
+# Rossmann Sales Forecast
+
 Versão em  [português (BR)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast/blob/main/referenses/README_PT.md)
 
-<p align="center"><img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="450"/></center>
+<center><img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="450"/></center>
 
 ## Problem Statement
 
@@ -12,23 +14,26 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 * Develop a machine learning mode capable of forecasting sales for each store in up to six weeks.
 
 **Extra:**    
-* Create a BOT that through telegram informs to user those predictions.
+* Create a telegram bot that reports sales forecasts.
 
 ## Development Stages
 * Business Knowledge
+    -   Deep study of features...
 * Data Preprocessing
+    -   Dealing with missing, duplicated and bad values, fixing data types, feature engineering, data inputation...  
 * Exploratory Data Analysis
+    -   Descriptive statistics, hypothesis mental map, univariate, bivariate and multivariate analysis 
+* Data Preparation
+    -   Normalization, Standardization, Encoding, Outlines
 * Machine Learning Predictive Model
-    - SARIMAX, Random Forest Regressor, XGBoost Regressor
+    -   SARIMAX, Random Forest Regressor, XGBoost Regressor
 * Deploy
+    -   Rossmann API on cloud
     
-*More details on notebooks and reports* 
-
 ## Reports
 * Project Presentation
 * Business Avaliation
 * Model Performace
-
 
 ## Tools
 * Languages: Python
