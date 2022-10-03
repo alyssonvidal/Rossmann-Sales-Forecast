@@ -58,5 +58,5 @@ Metodologia: CRISP-DM<br>
 
 
 <div align="center">
-<img src="images/rossmann_telegram_bot.gif" width="600px">
+<img src="/images/rossmann_telegram_bot.gif" width="600px">
 </div>
