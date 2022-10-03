@@ -2,7 +2,7 @@
 
 Versão em  [português (BR)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast/blob/main/referenses/README_PT.md)
 
-<img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="400" align='right'/>
+<center><img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="450"/></center>
 
 ## Problem Statement
 
