@@ -6,7 +6,8 @@ import inflection
 
 class Rossmann(object):
     def __init__(self):
-        self.home_path='/Users/Alysson/Documents/Projects/Rossmann-Sales-Forecast/scr/'
+        #self.home_path='/Users/Alysson/Documents/Projects/Rossmann-Sales-Forecast/scr/'#local
+        self.home_path=''
         
     def data_cleaning(self, data):     
         snakecase = lambda x: inflection.underscore(x)
