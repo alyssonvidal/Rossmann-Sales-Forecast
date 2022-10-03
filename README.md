@@ -17,31 +17,42 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 * Create a telegram bot that reports sales forecasts.
 
 ## Development Stages
-* Business Knowledge
-    -   Deep study of features...
-* Data Preprocessing
-    -   Dealing with missing, duplicated and bad values, fixing data types, feature engineering, data inputation...  
-* Exploratory Data Analysis
-    -   Descriptive statistics, hypothesis mental map, univariate, bivariate and multivariate analysis 
-* Data Preparation
-    -   Normalization, Standardization, Encoding, Outlines
-* Machine Learning Predictive Model
-    -   SARIMAX, Random Forest Regressor, XGBoost Regressor
-* Deploy
-    -   Rossmann API on cloud
+**Business Knowledge**
+* Deep study of features...
+
+**Data Preprocessing**
+* Dealing with missing, duplicated and bad values, fixing data types, feature engineering, data inputation...
+
+**Exploratory Data Analysis**
+* Descriptive statistics, hypothesis mental map, univariate, bivariate and multivariate analysis.
+
+**Data Preparation**
+* Normalization, Standardization, Encoding, Outlines.
+
+**Machine Learning Model**
+* SARIMAX, Random Forest Regressor, XGBoost Regressor.
+
+**Feature Selection**
+* Filter method, Embeeded methods, Wrapper method(Boruta).
+
+**Hyperparameters Tunning**
+* Gridsearch Cross Validation.
+    
+**Deploy**
+* Rossmann API on cloud.
     
 ## Reports
-* Project Presentation
-* Business Avaliation
-* Model Performace
+Project Presentation<br>
+Business Avaliation<br>
+Model Performace<br>
 
 ## Tools
-* Languages: Python
-* IDE: Visual Studio Code, Jupyter Notebook
-* Libraries: Pandas, Matplotlib, Seaborn, Sklearn, statsmodel
-* Frameworks: Flask
-* Deploy: Heroku
-* Methodology: CRISP-DM
+Languages: Python<br>
+IDE: Visual Studio Code, Jupyter Notebook<br>
+Libraries: Pandas, Matplotlib, Seaborn, Sklearn, statsmodel<br>
+Frameworks: Flask<br>
+Deploy: Heroku<br>
+Methodology: CRISP-DM<br>
 
 *** 
 
