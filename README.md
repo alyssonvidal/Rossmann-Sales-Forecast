@@ -1,5 +1,3 @@
-# Rossmann Sales Forecast
-
 Versão em  [português (BR)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast/blob/main/referenses/README_PT.md)
 
 <center><img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="450"/></center>
