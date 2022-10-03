@@ -44,7 +44,7 @@ Apresentação do Projeto<br>
 Avaliação de negócio<br>
 Performace do modelo de machine learning<br>
 
-## Tools
+## Ferramentas
 Linguagens: Python<br>
 IDE: Visual Studio Code, Jupyter Notebook<br>
 Bibliotecas: Pandas, Matplotlib, Seaborn, Sklearn, statsmodel<br>
