@@ -6,6 +6,7 @@ from rossmann.Rossmann import Rossmann
 #import requests
 import xgboost as xgb
 from xgboost import XGBRegressor
+import os
 
 
 # loading model
@@ -15,35 +16,31 @@ model = pickle.load(open('/Users/Alysson/Documents/Projects/Rossmann-Sales-Forec
 # initialize API
 app = Flask( __name__ )
 
-@app.route('/preparation/predict', methods=['POST'])
+@app.route('/rossmann/predict', methods=['POST'])
 def rossmann_predict():
     test_json = request.get_json()
 
-    print("Teste")
    
     if test_json: # there is data
         if isinstance( test_json, dict ): # unique example
             test_raw = pd.DataFrame( test_json, index=[0] )
             
         else: # multiple example
-            test_raw = pd.DataFrame( test_json, columns=test_json[0].keys())            
-
-
-        
+            test_raw = pd.DataFrame( test_json, columns=test_json[0].keys()) 
+       
         pipeline = Rossmann() 
         df1 = pipeline.data_cleaning( test_raw )  
         df2 = pipeline.feature_engineering( df1 )
         df3 = pipeline.data_preparation( df2 )
-        
-        #prediction
         df_response = pipeline.get_prediction( model, test_raw, df3 )
 
+        return df_response
+         
     else:
-        print("toma no cu")
-
-    return df_response
+        Response('{}', status = 200, mimetype = 'application/json')
         
-
-
 if __name__=="__main__":
-    app.run(debug=True)#app.run('127.0.0.1')#
+    app.run(debug=True)
+    #port = os.environ.get('PORT',5000)
+    #app.run('127.0.0.1',port=port)
+    #app.run('127.0.0.1')#
