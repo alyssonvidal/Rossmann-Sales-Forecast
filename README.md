@@ -2,7 +2,7 @@
 
 Versão em  [português (BR)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast/blob/main/referenses/README_PT.md)
 
-<img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="400"/>
+<img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="400" align='center'/>
 
 ## Problem Statement
 
@@ -45,3 +45,8 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 *** 
 
 ## Brefing 
+
+
+<div align="center">
+<img src="images/rossmann_telegram_bot.gif" width="250px">
+</div>
