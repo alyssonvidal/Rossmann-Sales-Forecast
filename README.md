@@ -1,14 +1,10 @@
-# Rossmann Sales Forecast
-
 Versão em  [português (BR)](https://github.com/alyssonvidal/Rossmann-Sales-Forecast/blob/main/referenses/README_PT.md)
 
-<img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="400" align='center'/>
+<center><img src="/images/logo_rossmann.jpg " alt="logo_rossmann" width="450"/></center>
 
 ## Problem Statement
 
 Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.
-
-*The dataset can be accessed on the [kaggle](https://www.kaggle.com/competitions/rossmann-store-sales/data/) platform.*
 
 ## Objective
 **Main:**
@@ -16,31 +12,45 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 * Develop a machine learning mode capable of forecasting sales for each store in up to six weeks.
 
 **Extra:**    
-* Create a BOT that through telegram informs to user those predictions.
+* Create a telegram bot that reports sales forecasts.
 
 ## Development Stages
-* Business Knowledge
-* Data Preprocessing
-* Exploratory Data Analysis
-* Machine Learning Predictive Model
-    - SARIMAX, Random Forest Regressor, XGBoost Regressor
-* Deploy
+**Business Knowledge**<br>
+Deep study of features...
+
+**Data Preprocessing**<br>
+Dealing with missing, duplicated and bad values, fixing data types, feature engineering, data inputation...
+
+**Exploratory Data Analysis**<br>
+Descriptive statistics, hypothesis mental map, univariate, bivariate and multivariate analysis.
+
+**Data Preparation**<br>
+Normalization, Standardization, Encoding, Outlines.
+
+**Machine Learning Model**<br>
+SARIMAX, Random Forest Regressor, XGBoost Regressor.
+
+**Feature Selection**<br>
+Filter method, Embeeded methods, Wrapper method(Boruta).
+
+**Hyperparameters Tunning**<br>
+Gridsearch Cross Validation.
     
-*More details on notebooks and reports* 
-
+**Deploy**<br>
+Rossmann API on cloud.
+    
 ## Reports
-* Project Presentation
-* Business Avaliation
-* Model Performace
-
+Project Presentation<br>
+Business Avaliation<br>
+Model Performace<br>
 
 ## Tools
-* Languages: Python
-* IDE: Visual Studio Code, Jupyter Notebook
-* Libraries: Pandas, Matplotlib, Seaborn, Sklearn, statsmodel
-* Frameworks: Flask
-* Deploy: Heroku
-* Methodology: CRISP-DM
+Languages: Python<br>
+IDE: Visual Studio Code, Jupyter Notebook<br>
+Libraries: Pandas, Matplotlib, Seaborn, Sklearn, statsmodel<br>
+Frameworks: Flask<br>
+Deploy: Heroku<br>
+Methodology: CRISP-DM<br>
 
 *** 
 
@@ -48,5 +58,5 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 
 
 <div align="center">
-<img src="images/rossmann_telegram_bot.gif" width="250px">
+<img src="images/rossmann_telegram_bot.gif" width="600px">
 </div>
