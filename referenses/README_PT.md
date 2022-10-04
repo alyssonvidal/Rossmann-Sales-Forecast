@@ -15,29 +15,29 @@ A Rossmann opera mais de 3.000 drogarias em 7 países europeus. Atualmente, os g
 * Criar um bot de telegram que relate previsões de vendas.
 
 ## Etapas de desenvolvimento
-**Conhecimento de Negócio**
-* Deep study of features...
+**Conhecimento de Negócio**<br>
+Deep study of features...
 
-**Pré-processamento dos dados**
-* tratamento de dados faltantes, duplicados e errôneos, fixando tipos de dados, criação de colunas, imputação de dados...
+**Pré-processamento dos dados**<br>
+tratamento de dados faltantes, duplicados e errôneos, fixando tipos de dados, criação de colunas, imputação de dados...
 
-**Analise Exploratória dos Dados**
-* Estatistica Descritiva, Mapa Mental de Hipoteses, analise univariada, bivaria, multivariada.
+**Analise Exploratória dos Dados**<br>
+Estatistica Descritiva, Mapa Mental de Hipoteses, analise univariada, bivaria, multivariada.
 
-**Preparação dos Dados**
-* Normalization, Standardization, Encoding, Outlines.
+**Preparação dos Dados**<br>
+Normalization, Standardization, Encoding, Outlines.
 
-**Modelo de Machine Learning**
-* SARIMAX, Random Forest Regressor, XGBoost Regressor.
+**Modelo de Machine Learning**<br>
+SARIMAX, Random Forest Regressor, XGBoost Regressor.
 
-**Seleção de Variáveis**
-* metodo de filtragem, metodos embarvados, Wrapper method(Boruta).
+**Seleção de Variáveis**<br>
+metodo de filtragem, metodos embarvados, Wrapper method(Boruta).
 
-**Ajuste de hiperparâmetros**
-* Gridsearch Validação Cruzada.
+**Ajuste de hiperparâmetros**<br>
+Gridsearch Validação Cruzada.
     
-**Produção**
-* Rossmann API na nuvem.
+**Produção**<br>
+Rossmann API na nuvem.
     
 ## Relatórios
 Apresentação do Projeto<br>
