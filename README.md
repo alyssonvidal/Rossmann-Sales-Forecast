@@ -15,29 +15,29 @@ Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Ros
 * Create a telegram bot that reports sales forecasts.
 
 ## Development Stages
-**Business Knowledge**
-* Deep study of features...
+**Business Knowledge**<br>
+Deep study of features...
 
-**Data Preprocessing**
-* Dealing with missing, duplicated and bad values, fixing data types, feature engineering, data inputation...
+**Data Preprocessing**<br>
+Dealing with missing, duplicated and bad values, fixing data types, feature engineering, data inputation...
 
-**Exploratory Data Analysis**
-* Descriptive statistics, hypothesis mental map, univariate, bivariate and multivariate analysis.
+**Exploratory Data Analysis**<br>
+Descriptive statistics, hypothesis mental map, univariate, bivariate and multivariate analysis.
 
-**Data Preparation**
-* Normalization, Standardization, Encoding, Outlines.
+**Data Preparation**<br>
+Normalization, Standardization, Encoding, Outlines.
 
-**Machine Learning Model**
-* SARIMAX, Random Forest Regressor, XGBoost Regressor.
+**Machine Learning Model**<br>
+SARIMAX, Random Forest Regressor, XGBoost Regressor.
 
-**Feature Selection**
-* Filter method, Embeeded methods, Wrapper method(Boruta).
+**Feature Selection**<br>
+Filter method, Embeeded methods, Wrapper method(Boruta).
 
-**Hyperparameters Tunning**
-* Gridsearch Cross Validation.
+**Hyperparameters Tunning**<br>
+Gridsearch Cross Validation.
     
-**Deploy**
-* Rossmann API on cloud.
+**Deploy**<br>
+Rossmann API on cloud.
     
 ## Reports
 Project Presentation<br>
